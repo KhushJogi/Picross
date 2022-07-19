@@ -1,0 +1,166 @@
+:root{
+    --p-color: #edf2fc;
+    --s-color: #212122;
+}
+.dark-theme{
+    --p-color: #111010c9;
+    --s-color: #fff;
+}
+#dcenter{
+    justify-content: center;
+    display: flex;
+}
+
+body{
+    background-color: var(--p-color);
+    color: var(--s-color);
+}
+hr{
+    border: 2px solid var(--s-color);
+}
+.act{
+    text-decoration: underline;
+}
+
+#icon{
+    width: 30px;
+    cursor: pointer;
+}
+
+.navbar{
+    top:0;
+    display:flex;
+    background: var(--p-color);
+    color: var(--s-color);
+}
+.navbar .navpart{
+    margin:0 5.5rem;
+    height:auto;
+    
+}
+.navbar .left{
+    display:flex;
+}
+.navbar .left .left-item{
+    font-size: 1.8rem;
+}
+.navbar .left .indeximg{
+    position: relative;
+    margin-top: 6px;
+    width:80px;
+    height:40px;
+}
+.navbar .left img{
+    position: relative;
+    width:80px;
+    height:40px;
+}
+.navbar .left .websitename{
+    margin:5px 20px;
+}
+.loginsignupcontainer{
+    display:flex;
+    justify-content: center;
+}
+/* Home page CSS Starts */
+.navlist{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0 10px;
+    color: var(--s-color);
+}
+
+.livescontainer{
+    display:flex;
+    justify-content: center;
+}
+.livescontainer p{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin:0 3px;
+}
+.tablecontainer{
+    display:flex;
+    justify-content:center;
+}
+.tablecontainer .table{
+    width: 500px;
+    height: 500px;
+}
+th{
+    text-align: center;
+    font-size: 1.1rem;
+    color: var(--s-color)
+}
+.data{
+    width: 800px;
+}
+.td10{
+    width:8%; 
+    height:auto;
+}
+.td5{
+    width: 20%;
+    height: 20%;
+}
+td{
+    border: 1px solid var(--s-color);
+    background: center center relative no-repeat;
+}
+/* .center{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:auto;
+} */
+#result{
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Home Page CSS Ends.  */
+
+/* Contact Us CSS Starts.  */
+
+.formcontainer{
+    position:relative;
+    display: flex;
+    border:3px solid black;
+    border-radius: 8px;
+    margin:20px auto;
+    width:500px;
+    flex-direction: column;
+    font-weight: bold;
+    padding:50px;
+    background:white;
+    box-shadow: 0px 10px 20px 0px rgb(17, 17, 17);
+}
+.formcontainer .form-label{
+    margin: 0px 30px;
+    font-size: 1.3rem;
+}
+.formcontainer .form-input{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0 30px 20px 30px;
+    padding: 3px 3px 3px 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+.formcontainer #submit{
+    width:200px;
+    margin:auto;
+    margin-top:10px;
+
+}
+.formcontainer #submit:hover{
+    background-color: black;
+    color:white;
+}
+.formcontainer .form-input .option{
+    background-color: black;
+    color:white;
+}
